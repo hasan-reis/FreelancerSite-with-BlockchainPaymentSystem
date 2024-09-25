@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRC Coin Transfer</title>
+    <script src="index.js" defer></script>
+</head>
+
+<body>
+    <button id="connect-button" onclick="connectWallet()">Connect Wallet</button> <br><br>
+    <div id="account-info">Cüzdanım: Bağlı Değil</div> <br>
+
+    <input type="text" id="recipient-address" placeholder="Alıcı Adresi"> <br><br>
+    <input type="number" id="amount" placeholder="Amount">
+    <span id="currency">TRC</span> <br><br>
+    
+    <button id="send-button" onclick="sendMoney()">Coin Gönder</button>
+</body>
+
+</html>
